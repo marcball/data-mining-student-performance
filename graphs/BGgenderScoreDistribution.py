@@ -13,4 +13,8 @@ plt.title('Comparison of Score Distributions by Gender')
 plt.xlabel('Score Type')
 plt.ylabel('Score')
 plt.legend(title='Gender')
+
+# For READ.ME documentation.
+plt.savefig("./score_distribution_by_gender.png")
+
 plt.show()

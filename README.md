@@ -13,27 +13,36 @@ We worked with a dataset containing information about students' gender, parental
 
 ## Methods and Tools
 
-- Language: Python
-- Libraries: pandas, scikit-learn, matplotlib
-- Models: Random Forest, Decision Tree, Neural Network (MLP)
-- Dataset: StudentsPerformance.csv
+- **Language:** Python
+- **Libraries:** pandas, scikit-learn, matplotlib, seaborn
+- **Models:** Random Forest, Decision Tree, Neural Network (MLP)
+- **Dataset:** StudentsPerformance.csv
 
 Each model was trained on selected features and evaluated on math, reading, writing, and average scores.
 
 ## Process Overview
 
-- Loaded and cleaned dataset using pandas
+- Load and explore the dataset
 - Encoded categorical variables
-- Added derived features (e.g., average score)
-- Trained and tested each model using train/test split
-- Evaluated model performance using Mean Squared Error and R²
-- Visualized predictions against actual scores
+- Create new features (e.g., average score)
+- Trained and tested three regression models.
+- Evaluated model performance using Mean Squared Error (MSE) and R²
+- Visualized score distributions and predictions
 
 ## Installation
 
-To install dependencies, run:
-
+To install the dependencies locally use: 
+```bash
 pip install -r requirements.txt
+```
+
+## Example Visualization
+
+Below is a sample plot showing the distribution of test scores by gender, using boxplots for math, reading, and writing scores.
+
+![Score Distribution by Gender](./score_distribution_by_gender.png)
+
+This chart was generated using seaborn and matplotlib to explore patterns in score distributions by gender.
 
 ## Notes
 
