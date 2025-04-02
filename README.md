@@ -16,9 +16,11 @@ We worked with a dataset containing information about students' gender, parental
 - **Language:** Python
 - **Libraries:** pandas, scikit-learn, matplotlib, seaborn
 - **Models:** Random Forest, Decision Tree, Neural Network (MLP)
-- **Dataset:** StudentsPerformance.csv
+- **Dataset:** [StudentsPerformance.csv](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data)
 
 Each model was trained on selected features and evaluated on math, reading, writing, and average scores.
+
+**Note:** This is a **fictional dataset** created for educational and learning purposes. It does not represent real individuals or actual student records.
 
 ## Process Overview
 
